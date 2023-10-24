@@ -1,5 +1,13 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
+    background-color: #f6f6f6;
     margin: 0;
     padding: 0;
 }
@@ -8,7 +16,7 @@ header {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 20px 0;
 }
 
 nav ul {
@@ -22,6 +30,7 @@ nav ul li {
 
 main {
     padding: 20px;
+    text-align: center;
 }
 
 footer {
@@ -29,4 +38,73 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+/* Add some funky styles */
+
+h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff6600; /* Orange on hover */
+}
+
+section {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+/* Add some funky colors */
+
+#home {
+    background-color: #ff6600; /* Orange */
+}
+
+#about {
+    background-color: #ffcc00; /* Yellow */
+}
+
+#founder1 {
+    background-color: #9933cc; /* Purple */
+}
+
+#founder2 {
+    background-color: #66cc33; /* Green */
+}
+
+#contests {
+    background-color: #0099cc; /* Blue */
 }
